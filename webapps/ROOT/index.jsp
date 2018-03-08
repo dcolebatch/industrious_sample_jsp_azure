@@ -1,127 +1,242 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <html>
-<head>
-    <title>Microsoft Azure Web Site - Welcome</title>
-    <style type="text/css">
-        html {
-            height: 100%;
-            width: 100%;
-        }
+	<head>
+		<title>Industrious by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-        #feature {
-            width: 960px;
-            margin: 95px auto 0 auto;
-            overflow: auto;
-        }
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="index.html">Industrious</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
 
-        #content {
-            font-family: "Segoe UI";
-            font-weight: normal;
-            font-size: 26px;
-            color: #ffffff;
-            float: left;
-            width: 460px;
-            margin-top: 68px;
-            margin-left: 0px;
-            vertical-align: middle;
-        }
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="elements.html">Elements</a></li>
+					<li><a href="generic.html">Generic</a></li>
+				</ul>
+			</nav>
 
-            #content h1 {
-                font-family: "Segoe UI Light";
-                color: #ffffff;
-                font-weight: normal;
-                font-size: 70px;
-                line-height: 48pt;
-                width: 800px;
-            }
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1>Industrious</h1>
+					<p>A responsive business oriented template with a video background<br />
+					designed by <a href="https://templated.co/">TEMPLATED</a> and released under the Creative Commons License.</p>
+				</div>
+				<video autoplay loop muted playsinline src="images/banner.mp4"></video>
+			</section>
 
-	    #content h2 {
-                font-family: "Segoe UI Light";
-                color: #ffffff;
-                font-weight: normal;
-                font-size: 60px;
-                line-height: 48pt;
-                width: 800px;
-            }
+		<!-- Highlights -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>Sem turpis amet semper</h2>
+						<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+					</header>
+					<div class="highlights">
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-vcard-o"><span class="label">Icon</span></a>
+									<h3>Feugiat consequat</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-files-o"><span class="label">Icon</span></a>
+									<h3>Ante sem integer</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-floppy-o"><span class="label">Icon</span></a>
+									<h3>Ipsum consequat</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-line-chart"><span class="label">Icon</span></a>
+									<h3>Interdum gravida</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-paper-plane-o"><span class="label">Icon</span></a>
+									<h3>Faucibus consequat</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-qrcode"><span class="label">Icon</span></a>
+									<h3>Accumsan viverra</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
 
-        p a, p a:visited, p a:active, p a:hover {
-            color: #ffffff;
-        }
-
-        #content a.button {
-            background: #0DBCF2;
-            border: 1px solid #FFFFFF;
-            color: #FFFFFF;
-            display: inline-block;
-            font-family: Segoe UI;
-            font-size: 24px;
-            line-height: 46px;
-            margin-top: 10px;
-            padding: 0 15px 3px;
-            text-decoration: none;
-        }
-
-            #content a.button img {
-                float: right;
-                padding: 10px 0 0 15px;
-            }
-
-            #content a.button:hover {
-                background: #1C75BC;
-            }
-
-        body {
-            background-image: url('background.png');
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-    </style >
-    
-
-</head>
-<body bgcolor="#00abec" >
-    <div id="feature">
-        <div id="content">
-            <h2>This Java based web application has been successfully created</h2>
-            <p>
-                There's nothing here yet, but Microsoft Azure makes it simple to publish content with
-                <a href="http://www.windowsazure.com/en-us/documentation/articles/web-sites-deploy/#git" alt="GIT">GIT</a> and
-                <a href="http://www.windowsazure.com/en-us/documentation/articles/web-sites-deploy/#ftp" alt="FTP">FTP</a>
-            </p>
-
-            <a href="http://go.microsoft.com/?LinkID=9844831" class="button">Tell me more<img border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAdCAYAAABSZrcyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NERBNUVDMDBBNkE5MTFFMThGMDVCRkNEMjk1M0IwMTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NERBNUVDMDFBNkE5MTFFMThGMDVCRkNEMjk1M0IwMTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0REE1RUJGRUE2QTkxMUUxOEYwNUJGQ0QyOTUzQjAxNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0REE1RUJGRkE2QTkxMUUxOEYwNUJGQ0QyOTUzQjAxNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnW1aqMAAAE1SURBVHjaxFeLEYMgDEUnYARHYAS7gSM4AiN0A0dxBEbQDewG7QYUeonlqHzksHl3Oe80yQtJCMhYBrTWnZG7EaXDUKDTZfpMKvQJwlggfRG5+cCNzJ7DxYg8cgpBStBxYX3wbHLzUhjZzqwikS3rSyTJgfgJRvY5sEJYW8+XCJJDqoPKhQH4i+EhclWTOBCA+iGHFCEGVhlH/l1ybLD5RFO5wjNscPdsOzkYI3IHxHiwDXnGoEL0SD759bgwAOyrCclxMMiCWo5OM2EAIqIvHb3Piz0VFbo5ulu8En/JE2k6i1gAO2XLroGt/ZJq4NadcBXJX0ZuTdM8UjUjq7ld+QrfRAGxDVhBmt0VrwET5FjRAek+p5twpLOd/FQjPc/JbzKkdzjy2yv5vZ38j+Vf/2pvAQYAVsHorRPkS+QAAAAASUVORK5CYII%3D" /></a>
-          <font face="Segoe UI" size="4">
-            <br/>
-	    <br/>
-            <table width="750" frame="below">
-              <tr bgcolor="rgb(13,188,242)">  
-                <th align="left" width="200">    Java Property  </th>  
-                <th align="left" width="500">    Value  </th>
-              </tr>
-              <%@ page import="java.util.*" %>
-              <%
-                  ArrayList<String> mainPageProps = new ArrayList<String>();
-                  mainPageProps.add("java.version");
-                  mainPageProps.add("java.vendor");
-                  mainPageProps.add("os.arch");
-                  mainPageProps.add("catalina.base");
-                  mainPageProps.add("jetty.base");
-                  mainPageProps.add("user.timezone");
-                  for(String name : mainPageProps)
-                  {
-                    String value = System.getProperty(name);
-                    if(value != null)
-                    {
-  out.print("<tr><td>" + name);
-  out.print("</td><td>" + value );
-  out.print("</td></tr>");
-                    }
-                  }
-              %>
-            </table>
-          </font>
+      <section>
+        <div>
+          <table width="750" frame="below">
+            <tr bgcolor="rgb(13,188,242)">  
+              <th align="left" width="200">    Java Property  </th>  
+              <th align="left" width="500">    Value  </th>
+            </tr>
+            <%@ page import="java.util.*" %>
+            <%
+                     ArrayList<String> mainPageProps = new ArrayList<String>();
+                     mainPageProps.add("java.version");
+                     mainPageProps.add("java.vendor");
+                     mainPageProps.add("os.arch");
+                     mainPageProps.add("catalina.base");
+                     mainPageProps.add("jetty.base");
+                     mainPageProps.add("user.timezone");
+                     for(String name : mainPageProps)
+                     {
+                     String value = System.getProperty(name);
+                     if(value != null)
+                     {
+                     out.print("<tr><td>" + name);
+                         out.print("</td><td>" + value );
+                         out.print("</td></tr>");
+                     }
+                     }
+             %>
+          </table>
         </div>
-    </div>
-</body>
+      </section>
 
+		<!-- CTA -->
+			<section id="cta" class="wrapper">
+				<div class="inner">
+					<h2>Curabitur ullamcorper ultricies</h2>
+					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+				</div>
+			</section>
+
+		<!-- Testimonials -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>Faucibus consequat lorem</h2>
+						<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+					</header>
+					<div class="testimonials">
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>Jane Doe</strong> <span>CEO - ABC Inc.</span></p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="images/pic03.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>John Doe</strong> <span>CEO - ABC Inc.</span></p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>Janet Smith</strong> <span>CEO - ABC Inc.</span></p>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="content">
+						<section>
+							<h3>Accumsan montes viverra</h3>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+						</section>
+						<section>
+							<h4>Sem turpis amet semper</h4>
+							<ul class="alt">
+								<li><a href="#">Dolor pulvinar sed etiam.</a></li>
+								<li><a href="#">Etiam vel lorem sed amet.</a></li>
+								<li><a href="#">Felis enim feugiat viverra.</a></li>
+								<li><a href="#">Dolor pulvinar magna etiam.</a></li>
+							</ul>
+						</section>
+						<section>
+							<h4>Magna sed ipsum</h4>
+							<ul class="plain">
+								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+								<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+								<li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="copyright">
+						&copy; Untitled. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
