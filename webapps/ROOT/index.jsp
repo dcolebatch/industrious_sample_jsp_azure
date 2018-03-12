@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Industrious by TEMPLATED</title>
+		<title>Sample JSP App with Industrious theme</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="" />
@@ -35,9 +35,9 @@
 		<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
-					<h1>Industrious</h1>
-					<p>A responsive business oriented template with a video background<br />
-					designed by <a href="https://templated.co/">TEMPLATED</a> and released under the Creative Commons License.</p>
+					<h1>Sample JSP Application</h1>
+					<p>With a responsive, business oriented template with a video background<br />
+					designed by <a href="https://templated.co/">TEMPLATED</a> under the Creative Commons License.</p>
 				</div>
 				<video autoplay loop muted playsinline src="images/banner.mp4"></video>
 			</section>
@@ -99,45 +99,37 @@
 							<div class="content">
 								<header>
 									<a href="#" class="icon fa-qrcode"><span class="label">Icon</span></a>
-									<h3>Accumsan viverra</h3>
+									<h3>JVM Specs</h3>
 								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+                <table width="90%" frame="below">
+                  <tr bgcolor="rgb(13,188,242)">  
+                    <th align="left" width="40%">Java Property</th>  
+                    <th align="left" width="60%">Value</th>
+                  </tr>
+                  <%@ page import="java.util.*" %>
+                  <%
+                  ArrayList<String> mainPageProps = new ArrayList<String>();
+                  mainPageProps.add("java.version");
+                  mainPageProps.add("java.vendor");
+                  mainPageProps.add("os.arch");
+                  mainPageProps.add("catalina.base");
+                  mainPageProps.add("jetty.base");
+                  mainPageProps.add("user.timezone");
+                  for(String name : mainPageProps) {
+                    String value = System.getProperty(name);
+                    if(value != null) {
+                      out.print("<tr><td>" + name);
+                      out.print("</td><td>" + value );
+                      out.print("</td></tr>");
+                    }
+                  }
+                  %>
+                </table>
 							</div>
 						</section>
 					</div>
 				</div>
 			</section>
-
-      <section>
-        <div>
-          <table width="750" frame="below">
-            <tr bgcolor="rgb(13,188,242)">  
-              <th align="left" width="200">    Java Property  </th>  
-              <th align="left" width="500">    Value  </th>
-            </tr>
-            <%@ page import="java.util.*" %>
-            <%
-                     ArrayList<String> mainPageProps = new ArrayList<String>();
-                     mainPageProps.add("java.version");
-                     mainPageProps.add("java.vendor");
-                     mainPageProps.add("os.arch");
-                     mainPageProps.add("catalina.base");
-                     mainPageProps.add("jetty.base");
-                     mainPageProps.add("user.timezone");
-                     for(String name : mainPageProps)
-                     {
-                     String value = System.getProperty(name);
-                     if(value != null)
-                     {
-                     out.print("<tr><td>" + name);
-                         out.print("</td><td>" + value );
-                         out.print("</td></tr>");
-                     }
-                     }
-             %>
-          </table>
-        </div>
-      </section>
 
 		<!-- CTA -->
 			<section id="cta" class="wrapper">
